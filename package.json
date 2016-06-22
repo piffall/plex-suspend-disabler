@@ -1,0 +1,29 @@
+{
+  "name": "plex-suspend-disabler",
+  "version": "1.0.0",
+  "description": "This daemon disables suspend when Plex is streaming and enables it when idle",
+  "main": "index.js",
+  "bin": {
+    "plex-suspend-disabler": "./app.js"
+  },
+  "scripts": {
+    "test": "./app.js test"
+  },
+  "keywords": [
+    "plex",
+    "streaming",
+    "suspend",
+    "power management"
+  ],
+  "author": "piffall",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/piffall/plex-suspend-disabler.git"
+  },
+  "license": "GPL-3.0",
+  "dependencies": {
+    "xml2js": "^0.4.16",
+    "daemon": "^1.1.0",
+    "file-tail": "^0.3.0"
+  }
+}
