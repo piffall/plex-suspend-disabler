@@ -20,7 +20,7 @@ sudo npm install -g
 ## Run
 
 ```bash
-plex-suspend-disabler
+plex-suspend-disabler YourTokenHere
 ```
 
 I recomend you to launch at start up.
