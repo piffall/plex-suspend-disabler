@@ -12,11 +12,6 @@ var emitter = new events.EventEmitter();
 var enabled = true;
 var token = process.argv[2] // Pass token as argument
 
-// Daemonize
-if (process.argv[2] != "test") {
-  require('daemon')()
-}
-
 setInterval(() => {
 
   // Disable if this file exists

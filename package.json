@@ -23,7 +23,6 @@
   "license": "GPL-3.0",
   "dependencies": {
     "xml2js": "^0.4.16",
-    "daemon": "^1.1.0",
     "file-tail": "^0.3.0"
   }
 }
